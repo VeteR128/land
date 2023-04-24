@@ -1,0 +1,9 @@
+.header__mark {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(25px + 10 * (100vw / 1330));
+  line-height: 120%;
+  margin: 0 5px 0 0;
+
+  color: #28a745;
+}

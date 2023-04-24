@@ -1,0 +1,13 @@
+.header__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12px + 6 * (100vw / 1330));
+  line-height: 156%;
+  color: #ffffff;
+  margin: 0;
+  margin-right: 38px;
+}
+.header__link:last-child {
+  margin: 0;
+}

@@ -1,0 +1,10 @@
+.about__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: calc(40% / (1330 / 100));
+  margin-bottom: calc(19% / (1330 / 100));
+  margin-left: calc(66% / (1330 / 100));
+  margin-right: calc(66% / (1330 / 100));
+}

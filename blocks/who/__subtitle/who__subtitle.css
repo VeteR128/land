@@ -1,0 +1,12 @@
+.who__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(26px + 12 * (100vw / 1330));
+  line-height: 126%;
+  margin: 0;
+  margin-bottom: calc(34% / (1330 / 100));
+
+  text-align: center;
+
+  color: #333333;
+}

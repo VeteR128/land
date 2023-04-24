@@ -1,0 +1,8 @@
+.header__mark-green {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(25px + 10 * (100vw / 1330));
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0;
+}

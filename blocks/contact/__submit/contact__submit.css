@@ -1,0 +1,23 @@
+.contact__submit {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12px + 6 * (100vw / 1330));
+  line-height: 138%;
+  max-width: 620px;
+  width: 90%;
+  text-align: center;
+
+  color: #ffffff;
+  margin-left: calc(30% / (665 / 100));
+  margin-bottom: calc(82% / (665 / 100));
+  margin-right: calc(30% / (665 / 100));
+  background: #28a745;
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
+  cursor: pointer;
+}
+.contact__submit:hover {
+  background: #1f8f39;
+}

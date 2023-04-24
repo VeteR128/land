@@ -1,0 +1,11 @@
+.contact__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(26px + 12 * (100vw / 1330));
+  line-height: 126%;
+  color: #333333;
+  margin: 0;
+  margin-top: calc(78% / (665 / 100));
+  margin-left: calc(30% / (665 / 100));
+  margin-bottom: calc(34% / (665 / 100));
+}

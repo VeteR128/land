@@ -1,0 +1,17 @@
+.who__cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: calc(45% / (1330 / 100));
+  margin-bottom: calc(59% / (1330 / 100));
+  margin-left: calc(30% / (1330 / 100));
+  margin-right: calc(30% / (1330 / 100));
+}
+.who__card:nth-of-type(2) .who__img {
+  max-width: 440px;
+  margin-top: calc(-30% / (1330 / 100));
+}
+.who__card:nth-of-type(3) .who__img {
+}
+.who__card:nth-of-type(2) .who__card-title {
+  margin-top: -8px;
+}

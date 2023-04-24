@@ -1,0 +1,11 @@
+.about__card-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12px + 6 * (100vw / 1330));
+  line-height: 156%;
+
+  text-align: center;
+
+  color: #333333;
+  margin: 0;
+}

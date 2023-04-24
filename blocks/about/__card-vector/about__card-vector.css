@@ -1,0 +1,9 @@
+.about__card-vector {
+  position: absolute;
+  z-index: 2;
+  left: 17px;
+  top: 16px;
+}
+.about__card:nth-of-type(2) .about__card-vector:nth-child(2) {
+  left: 16px;
+}

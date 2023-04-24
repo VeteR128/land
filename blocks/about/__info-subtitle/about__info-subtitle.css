@@ -1,0 +1,9 @@
+.about__info-subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(26px + 12 * (100vw / 1330));
+  line-height: 126%;
+  color: #ffffff;
+  margin: 0;
+  margin-left: calc(62% / (1330 / 100));
+}

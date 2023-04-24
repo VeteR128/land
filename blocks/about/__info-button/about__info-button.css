@@ -1,0 +1,17 @@
+.about__info-button {
+  margin-left: calc(62% / (1330 / 100));
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(12px + 6 * (100vw / 1330));
+  line-height: 156%;
+
+  color: #ffffff;
+  background: #28a745;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 11px 42px;
+  cursor: pointer;
+}
+.about__info-button:hover {
+  background: #1d8937;
+}

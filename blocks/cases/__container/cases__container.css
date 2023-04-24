@@ -1,0 +1,10 @@
+.cases__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 8px;
+  row-gap: 7px;
+
+  margin-left: calc(28% / (1330 / 100));
+  margin-right: calc(28% / (1330 / 100));
+}

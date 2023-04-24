@@ -1,0 +1,10 @@
+.cases__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(24px + 12 * (100vw / 1330));
+  line-height: 126%;
+  text-align: center;
+  color: #333333;
+  margin: 0;
+  margin-bottom: calc(34% / (1330 / 100));
+}

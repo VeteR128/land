@@ -1,0 +1,11 @@
+.blog__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: calc(26px + 12 * (100vw / 1330));
+  line-height: 126%;
+  margin: 0;
+  margin-left: calc(72.7% / (1330 / 100));
+  margin-bottom: calc(63.2% / (1330 / 100));
+
+  color: #ffffff;
+}

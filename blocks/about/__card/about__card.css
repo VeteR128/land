@@ -1,0 +1,9 @@
+.about__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: calc(77% / (1330 / 100));
+}
+.about__card:last-child {
+  margin: 0;
+}
