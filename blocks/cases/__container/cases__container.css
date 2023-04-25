@@ -5,6 +5,13 @@
   column-gap: 8px;
   row-gap: 7px;
 
-  margin-left: calc(28% / (1330 / 100));
-  margin-right: calc(28% / (1330 / 100));
+  margin-left: 28px;
+  margin-right: 28px;
+}
+@media screen and (max-width: 370px) {
+  .cases__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
 }

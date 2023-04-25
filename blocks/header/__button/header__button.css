@@ -18,3 +18,13 @@
 .header__button:hover {
   background-color: #228f3b;
 }
+@media screen and (max-width: 768px) {
+  .header__button {
+    font-size: calc(12px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__button {
+    font-size: calc(12px + 6 * (100vw / 320));
+  }
+}

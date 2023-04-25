@@ -8,6 +8,17 @@
 
   color: #ffffff;
   margin: 0;
-  margin-top: calc(10% / (1330 / 100));
-  margin-bottom: calc(16% / (1330 / 100));
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 768px) {
+  .footer__title {
+    font-size: calc(12px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__title {
+    font-size: calc(10px + 6 * (100vw / 320));
+    margin-bottom: 20px;
+  }
 }

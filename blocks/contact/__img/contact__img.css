@@ -1,4 +1,8 @@
 .contact__img {
   max-width: 665px;
   width: 100%;
+  background-image: url(../../../images/contact.svg);
+  background-position: center center;
+  background-size: cover;
+  object-position: 0 0;
 }

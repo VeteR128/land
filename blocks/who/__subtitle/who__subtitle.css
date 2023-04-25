@@ -4,9 +4,21 @@
   font-size: calc(26px + 12 * (100vw / 1330));
   line-height: 126%;
   margin: 0;
-  margin-bottom: calc(34% / (1330 / 100));
+  margin-bottom: 34px;
 
   text-align: center;
 
   color: #333333;
+}
+@media screen and (max-width: 768px) {
+  .who__subtitle {
+    font-size: calc(26px + 12 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 370px) {
+  .who__subtitle {
+    font-size: calc(23px + 12 * (100vw / 320));
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }

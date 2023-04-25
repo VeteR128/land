@@ -1,5 +1,5 @@
 .blog__button {
-  margin-left: calc(72.7% / (1330 / 100));
+  margin-left: 30px;
   background: #0284d0;
   font-style: normal;
   font-weight: 400;
@@ -9,7 +9,14 @@
   color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  margin-bottom: calc(116% / (680 / 100));
 }
 .blog__button:hover {
   background: #0c6ba2;
+}
+@media screen and (max-width: 768px) {
+  .blog__button {
+    font-size: calc(12px + 6 * (100vw / 768));
+    margin-bottom: 30px;
+  }
 }

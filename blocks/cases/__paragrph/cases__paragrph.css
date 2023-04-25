@@ -6,5 +6,17 @@
   text-align: center;
   color: #333333;
   margin: 0;
-  margin-bottom: calc(39% / (1330 / 100));
+  margin-bottom: 39px;
+}
+@media screen and (max-width: 768px) {
+  .cases__paragrph {
+    font-size: calc(12px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 370px) {
+  .cases__paragrph {
+    font-size: calc(10px + 6 * (100vw / 320));
+    margin-left: 57px;
+    margin-right: 57px;
+  }
 }

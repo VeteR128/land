@@ -2,3 +2,8 @@
   display: flex;
   flex-direction: row;
 }
+@media screen and (max-width: 668px) {
+  .header__company {
+    margin-bottom: 10px;
+  }
+}

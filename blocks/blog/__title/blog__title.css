@@ -5,8 +5,20 @@
   line-height: 165%;
   margin: 0;
   margin-top: calc(271.4% / (1330 / 100));
-  margin-left: calc(72.7% / (1330 / 100));
-  margin-bottom: calc(12.3% / (1330 / 100));
+  margin-left: 30px;
+  margin-bottom: 5px;
 
   color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .blog__title {
+    margin-top: 29px;
+    font-size: calc(14px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .blog__title {
+    margin-top: 29px;
+    font-size: calc(12px + 6 * (100vw / 320));
+  }
 }

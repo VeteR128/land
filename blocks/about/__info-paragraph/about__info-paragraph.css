@@ -4,7 +4,15 @@
   font-size: calc(12px + 6 * (100vw / 1330));
   line-height: 156%;
   color: #ffffff;
-  margin-top: calc(53.35% / (1330 / 100));
-  margin-left: calc(62% / (1330 / 100));
-  margin-bottom: calc(34.75% / (1330 / 100));
+  margin-top: 26px;
+  margin-left: 30px;
+  margin-bottom: 17px;
+  margin-right: 44px;
+}
+@media screen and (max-width: 768px) {
+  .about__info-paragraph {
+    font-size: calc(12px + 6 * (100vw / 768));
+    margin-bottom: 21px;
+    margin-right: 39px;
+  }
 }

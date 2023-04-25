@@ -4,6 +4,28 @@
   justify-content: space-between;
   margin-left: calc(49% / (1330 / 100));
   margin-right: calc(46% / (1330 / 100));
-  padding-top: calc(11% / (1330 / 100));
+  padding-top: 11px;
   margin-bottom: calc(225% / (1330 / 100));
+}
+@media screen and (max-width: 768px) {
+  .header__menu {
+    margin-bottom: calc(353% / (768 / 100));
+    margin-left: calc(41% / (768 / 100));
+    margin-right: calc(41% / (768 / 100));
+  }
+}
+@media screen and (max-width: 668px) {
+  .header__menu {
+    padding-top: 21px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 44px;
+  }
 }

@@ -1,4 +1,13 @@
 .about__img {
   max-width: 680px;
   width: 100%;
+  background-image: url(../../../images/aboutImg.svg);
+  background-position: center center;
+  background-size: cover;
+  object-position: 0 0;
+}
+@media screen and (max-width: 493px) {
+  .about__img {
+    grid-row: 1;
+  }
 }

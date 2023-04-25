@@ -9,3 +9,15 @@
 
   color: #333333;
 }
+@media screen and (max-width: 768px) {
+  .who__paragraph {
+    font-size: calc(12px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 370px) {
+  .who__paragraph {
+    font-size: calc(10px + 6 * (100vw / 320));
+    margin-left: 57px;
+    margin-right: 57px;
+  }
+}

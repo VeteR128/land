@@ -4,3 +4,13 @@
   align-items: center;
   padding-bottom: calc(284% / (1330 / 100));
 }
+@media screen and (max-width: 768px) {
+  .header__info {
+    padding-bottom: calc(412% / (768 / 100));
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__info {
+    padding-bottom: 95px;
+  }
+}

@@ -3,16 +3,16 @@
   font-weight: 400;
   font-size: calc(12px + 6 * (100vw / 1330));
   line-height: 138%;
-  max-width: 620px;
-  width: 90%;
+
   text-align: center;
 
   color: #ffffff;
-  margin-left: calc(30% / (665 / 100));
+  margin-left: 30px;
   margin-bottom: calc(82% / (665 / 100));
-  margin-right: calc(30% / (665 / 100));
+  margin-right: 30px;
   background: #28a745;
   border-radius: 5px;
+  padding: 0;
   padding-top: 7px;
   padding-bottom: 7px;
   border: none;
@@ -20,4 +20,10 @@
 }
 .contact__submit:hover {
   background: #1f8f39;
+}
+@media screen and (max-width: 768px) {
+  .contact__submit {
+    font-size: calc(12px + 6 * (100vw / 768));
+    margin-bottom: 30px;
+  }
 }

@@ -6,3 +6,13 @@
   color: #ffffff;
   margin: 0;
 }
+@media screen and (max-width: 768px) {
+  .header__mark-green {
+    font-size: calc(25px + 10 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__mark-green {
+    font-size: calc(22px + 10 * (100vw / 320));
+  }
+}

@@ -9,3 +9,13 @@
   color: #333333;
   margin: 0;
 }
+@media screen and (max-width: 768px) {
+  .about__card-subtitle {
+    font-size: calc(12px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__card-subtitle {
+    font-size: calc(10px + 6 * (100vw / 320));
+  }
+}

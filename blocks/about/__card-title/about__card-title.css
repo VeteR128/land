@@ -8,6 +8,16 @@
 
   color: #333333;
   margin: 0;
-  margin-top: calc(45% / (1330 / 100));
-  margin-bottom: calc(45% / (1330 / 100));
+  margin-top: 15px;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 768px) {
+  .about__card-title {
+    font-size: calc(14px + 6 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .about__card-title {
+    font-size: calc(12px + 6 * (100vw / 320));
+  }
 }

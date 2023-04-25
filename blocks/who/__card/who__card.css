@@ -1,0 +1,8 @@
+@media screen and (max-width: 500px) {
+  .who__card {
+    margin-bottom: 10px;
+  }
+  .who__card:last-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,5 +1,8 @@
 .header {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../../images/bg.svg);
-  object-fit: cover;
+    url(../../images/bg.svg) no-repeat;
+
+  background-position: center center;
+  background-size: cover;
+  object-position: 0 0;
 }

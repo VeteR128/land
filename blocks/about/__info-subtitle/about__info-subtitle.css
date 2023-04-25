@@ -5,5 +5,11 @@
   line-height: 126%;
   color: #ffffff;
   margin: 0;
-  margin-left: calc(62% / (1330 / 100));
+  margin-left: 30px;
+}
+@media screen and (max-width: 768px) {
+  .about__info-subtitle {
+    font-size: calc(26px + 12 * (100vw / 768));
+    margin-right: calc(150% / (384 / 100));
+  }
 }

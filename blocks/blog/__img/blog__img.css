@@ -1,4 +1,12 @@
 .blog__img {
   max-width: 680px;
   width: 100%;
+  background-image: url(../../../images/blogimg.svg);
+  background-position: center center;
+  background-size: cover;
+}
+@media screen and (max-width: 494px) {
+  .blog__img {
+    grid-row: 1;
+  }
 }

@@ -13,7 +13,7 @@
   </head>
   <body class="body">
     <div class="page">
-      <header class="header">
+      <header class="header" id="home">
         <div class="header__menu">
           <div class="header__company">
             <img class="header__logo" src="images/logo.svg" alt="logo" />
@@ -21,11 +21,11 @@
             <p class="header__mark-green">Ledger</p>
           </div>
           <nav class="header__navigation">
-            <a class="header__link" href="">Home</a>
-            <a class="header__link" href="">About</a>
-            <a class="header__link" href="">Cases</a>
-            <a class="header__link" href="">Blog</a>
-            <a class="header__link" href="">Contact</a>
+            <a class="header__link" href="#home">Home</a>
+            <a class="header__link" href="#About">About</a>
+            <a class="header__link" href="#Cases">Cases</a>
+            <a class="header__link" href="#Blog">Blog</a>
+            <a class="header__link" href="#Contact">Contact</a>
           </nav>
         </div>
         <div class="header__info">
@@ -37,7 +37,7 @@
         </div>
       </header>
       <main class="main">
-        <section class="about">
+        <section class="about" id="About">
           <div class="about__cards">
             <div class="about__card">
               <div class="about__card-container">
@@ -98,7 +98,7 @@
             </div>
           </div>
           <div class="about__info">
-            <img class="about__img" src="images/aboutImg.svg" alt="company" />
+            <div class="about__img"></div>
             <div class="about__info-container">
               <h3 class="about__info-title">What you are looking for</h3>
               <p class="about__info-subtitle">We provide bespoke solutions</p>
@@ -112,7 +112,7 @@
             </div>
           </div>
         </section>
-        <section class="cases">
+        <section class="cases" id="Cases">
           <h3 class="cases__title">This is what we do</h3>
           <h4 class="cases__subtitle">Business Cases</h4>
           <p class="cases__paragrph">
@@ -142,7 +142,7 @@
             />
           </div>
         </section>
-        <section class="blog">
+        <section class="blog" id="Blog">
           <div class="blog__container">
             <h3 class="blog__title">April 16 2023</h3>
             <h4 class="blog__subtitle">Blog Post One</h4>
@@ -154,7 +154,7 @@
             </p>
             <button class="blog__button">Read Our Blog</button>
           </div>
-          <img class="blog__img" src="images/blogimg.svg" alt="blogimg" />
+          <div class="blog__img"></div>
         </section>
         <section class="who">
           <h3 class="who__title">Who we are</h3>
@@ -194,8 +194,8 @@
             </div>
           </div>
         </section>
-        <section class="contact">
-          <img class="contact__img" src="images/contact.svg" alt="contact" />
+        <section class="contact" id="Contact">
+          <div class="contact__img"></div>
           <div class="contact__container">
             <h3 class="contact__title">Request Callback</h3>
             <form class="contact__form" action="">
@@ -235,5 +235,6 @@
         <h3 class="footer__title">Copyright © 2023 - FinanceLedger</h3>
       </footer>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

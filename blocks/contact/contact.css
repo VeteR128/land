@@ -2,3 +2,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+@media screen and (max-width: 500px) {
+  .contact {
+    grid-template-columns: 1fr;
+    grid-template-rows: 320px 1fr;
+  }
+}
+@media screen and (max-width: 320px) {
+  .contact {
+    grid-template-columns: 1fr;
+    grid-template-rows: 220px 1fr;
+  }
+}

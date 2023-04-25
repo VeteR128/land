@@ -7,3 +7,13 @@
 
   color: #28a745;
 }
+@media screen and (max-width: 768px) {
+  .header__mark {
+    font-size: calc(25px + 10 * (100vw / 768));
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__mark {
+    font-size: calc(22px + 10 * (100vw / 320));
+  }
+}
