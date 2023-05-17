@@ -10,9 +10,8 @@
 }
 @media screen and (max-width: 470px) {
   .cases__container {
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
