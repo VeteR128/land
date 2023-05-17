@@ -10,8 +10,9 @@
 }
 @media screen and (max-width: 470px) {
   .cases__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
   }
 }
