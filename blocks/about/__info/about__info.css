@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
-@media screen and (max-width: 493px) {
+@media screen and (max-width: 560px) {
   .about__info {
     grid-template-columns: 1fr;
     grid-template-rows: 320px 1fr;

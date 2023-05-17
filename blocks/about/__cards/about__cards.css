@@ -10,6 +10,7 @@
 }
 @media screen and (max-width: 768px) {
   .about__cards {
+    flex-direction: column;
     margin-left: calc(56% / (768 / 100));
     margin-right: calc(56% / (768 / 100));
     margin-bottom: calc(47% / (768 / 100));
