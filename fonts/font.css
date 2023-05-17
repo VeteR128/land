@@ -3,14 +3,14 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url(Roboto-Regular.woff2) format("woff2"),
-    url(Roboto-Regular.woff) format("woff");
+  src: url(OpenSans-Light.woff2) format("woff2"),
+    url(OpenSans-Light.woff) format("woff");
 }
 @font-face {
   font-family: "Open sans";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(Roboto-Regular.woff2) format("woff2"),
-    url(Roboto-Regular.woff) format("woff");
+  src: url(OpenSans-Regular.woff2) format("woff2"),
+    url(OpenSans-Regular.woff) format("woff");
 }
