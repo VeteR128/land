@@ -9,7 +9,7 @@
 @media screen and (max-width: 780px) {
   .header {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../../images/780.svg) no-repeat;
+      url(../../images/780.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
     object-position: 0 0;
@@ -18,7 +18,7 @@
 @media screen and (max-width: 320px) {
   .header {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url(../../images/480.svg) no-repeat;
+      url(../../images/320.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
     object-position: 0 0;
